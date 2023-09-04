@@ -8,14 +8,20 @@
 
 import React from "react";
 import Index from "./component/Index";
+import VirtualDom from "./component/VirtualDom";
 
 const App = () => {
   return (
     // <div>
     <React.Fragment>
-      <h1>Main입니다</h1>
-      <p>home</p>
-      <Index />
+      <div>
+        <h1>React.Fragment</h1>
+        <Index />
+      </div>
+      <div>
+        <h1>VirtualDom</h1>
+        <VirtualDom />
+      </div>
     </React.Fragment>
     //</div>
   );
