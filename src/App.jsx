@@ -7,20 +7,25 @@
  */
 
 import React from "react";
-import Index from "./component/Index";
-import VirtualDom from "./component/VirtualDom";
+import { Link, Outlet } from "react-router-dom";
 
 const App = () => {
   return (
     // <div>
     <React.Fragment>
+      <Link to="/">
+        <h1>Home</h1>
+      </Link>
+      <Outlet />
       <div>
-        <h1>React.Fragment</h1>
-        <Index />
+        <Link to="/virtualDom">
+          <h2>VirtualDom</h2>
+        </Link>
       </div>
       <div>
-        <h1>VirtualDom</h1>
-        <VirtualDom />
+        <Link to="/listAndKey">
+          <h2>ListAndKey</h2>
+        </Link>
       </div>
     </React.Fragment>
     //</div>

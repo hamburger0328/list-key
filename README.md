@@ -2,8 +2,12 @@
 
 made by dw.kim
 
+##시작 : npm start
+
 ### React.Fragment
 
 React.Fragment로 불필요한 태그를 줄이자
 
 ### React가상 돔 ( virtual Dom)
+
+### List & Key

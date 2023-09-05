@@ -1,9 +1,13 @@
+/**
+ * @return {VirtualDom} Kimdowon 23.09.04.
+ */
 import React from "react";
+import dom from "../assets/dom.jpg";
 
 const VirtualDom = () => {
   return (
     <div>
-      <h4>React 가상돔 설명</h4>
+      <h2>React 가상돔 설명</h2>
       <h5>DOM</h5>
       <p>Document Object Model</p>
       <p>
@@ -11,6 +15,7 @@ const VirtualDom = () => {
         입맛대로 조작할 수 있다
       </p>
       <p>가상(Virtual)DOM은 실제 돔의 복사본이라고 생각하면 된다.</p>
+      <img src={dom} alt="가상돔 이미지" aria-label="이미지" />
       <p>
         가상돔은 실제 돔과 다르게 브라우저에 직접적으로 적용할 수 없다. 그래서
         react는 가상돔을 사용하여 비효율적인 DOM조작을 효율적으로 구성하게 된다
