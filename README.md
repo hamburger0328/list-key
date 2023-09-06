@@ -1,6 +1,6 @@
-# React의 세부적인 내용을 공부하기 위한 커밋입니다.
+# React의 세부적인 내용을 공부하기 
 
-made by dw.kim
+made by sh.park
 
 ## 시작
 ## `npm install or npm i`
